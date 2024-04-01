@@ -1,0 +1,44 @@
+Default STACKS :
+    - STRINGS
+    - RESULTS
+    - ONE
+    - TWO
+
+[-] Can choose the pile of result
+[-] Variables (STACKS)
+    [-] PIL <name(s)>
+    [-] FIL <name(s)>
+    [-] DEL <name(s)>
+[-] Init
+    [-] INIT <name(s)>
+    [-] INITALL
+    [-] PLAN <name> <lenght> <(*) values or stacks>
+[-] Strings value
+    // On the pile STRINGS
+    [-] STR <string> ... ENDSTR
+    [-] STRID <id> <string> ... ENDSTR <id>
+[-] Sections
+    [-] SECTION <name> ... INIT ARGS ... RETURN <stack(s)> ... END <name>
+    [-] CALL <section> <(*) args stack> <(*) stack>
+    [-] DUB <section(s)> <(*) args stack>
+[-] Imports
+    [-] IMPORT <prefix> <path (. for script dir, * for LIBS dir)> ...
+    [-] INJECT <path (. for script dir, * for LIBS dir)> ...
+[-] Conditions
+    [-] IS <stack 1> <stack 2> <(*) result pile>
+    [-] NOT <stack 1> <(*) result pile>
+    [-] MORE <stack 1> <stack 2> <(*) result pile>
+    [-] LESS <stack 1> <stack 2> <(*) result pile>
+    [-] AND <stack 1> <stack 2> <(*) result pile>
+    [-] OR <stack 1> <stack 2> <(*) result pile>
+[-] Types
+    [-] INT <stack(s)>
+    [-] DEC <stack(s)>
+    [-] BOOL <stack(s)>
+    [-] CHR <stack(s)>
+    [-] ADR <stack(s)>
+    [-] TOINT <stack(s)> <(*) result pile>
+    [-] TODEC <stack(s)> <(*) result pile>
+    [-] TOBOOL <stack(s)> <(*) result pile>
+    [-] TOCHR <stack(s)> <(*) result pile>
+    [-] TOADR <stack(s)> <(*) result pile>
